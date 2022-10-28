@@ -1,0 +1,72 @@
+<div class="container">
+
+  <nav class="navbar">
+
+    <div class="icon" routerLink="/hipertensao">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+      </svg>
+    </div>
+
+    <h1 class="title__large">Tratamento da Hipertensão</h1>
+    <h1 class="title__small"> Tratamento</h1>
+
+  </nav>
+
+  <main>
+
+    <section *ngFor="let i of sections">
+      <div *ngIf="i.lado == 'left'" class="section-left">
+        <div class="conteudo">
+          <img [src]="i.img">
+          <div class="text-l">
+            <p>
+              {{ i.paragrafo1 }}
+            </p>
+            <p class="esp">
+              {{ i.paragrafo2 }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="i.lado == 'right'" class="section-right">
+        <div class="conteudo">
+          <div class="text-r">
+            <p>
+              {{ i.paragrafo1 }}
+            </p>
+            <p class="esp">
+              {{ i.paragrafo2 }}
+            </p>
+            <div *ngIf="i.lista == true" class="esp">
+              <ul type="square">
+                <li *ngFor="let item of lista" [class]="item.espaco">
+                  {{item.topico}}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <img [src]=i.img>
+          <div class="text-r-r">
+            <p>
+              {{ i.paragrafo1 }}
+            </p>
+            <p class="esp">
+              {{ i.paragrafo2 }}
+            </p>
+            <div *ngIf="i.lista == true" class="esp">
+              <ul type="square">
+                <li *ngFor="let item of lista" [class]="item.espaco">
+                  {{item.topico}}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</div>

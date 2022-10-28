@@ -1,0 +1,13 @@
+<nav class="navbar">
+
+  <h1 class="title">Trabalho de Biologia</h1>
+
+</nav>
+
+<div class="container">
+  <div class="buttons">
+    <div class="button" *ngFor="let button of buttons" routerLink="/{{ button.path }}">
+      <p>{{ button.text }}</p>
+    </div>
+  </div>
+</div>

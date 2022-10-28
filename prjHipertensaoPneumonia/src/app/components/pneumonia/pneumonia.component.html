@@ -1,0 +1,29 @@
+<nav class="navbar">
+  <div class="icone" routerLink="">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+    </svg>
+  </div>
+  <h1>Pneumonia </h1>
+</nav>
+
+<div class="container">
+  <div class="buttons">
+    <div class="button" *ngFor="let button of buttons" routerLink="/{{ button.path }}">
+      <p>{{ button.text }}</p>
+    </div>
+  </div>
+</div>
+<div class="container2">
+
+</div>
+
+<div class="local">
+  <div class="box" *ngFor="let person of persons" routerLink="/{{ person.path }}">
+      <div class=" content">
+          <img src="{{ person.personUrl }}" alt="">
+      </div>
+  </div>
+</div>
+
+
