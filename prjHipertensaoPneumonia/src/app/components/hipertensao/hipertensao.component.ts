@@ -25,7 +25,7 @@ export class HipertensaoComponent implements OnInit {
       path: 'tc-tratamentos-h'
     },
     {
-      text: 'Curiosidades',
+      text: 'Riscos',
       path: 'cg-curiosidades-h'
     }
   ]
