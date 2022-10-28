@@ -9,12 +9,12 @@ export class HipertensaoComponent implements OnInit {
 
   buttons = [
     {
-      text: 'Sobre',
-      path: 'lc-sobre-h'
+      text: 'Oque é',
+      path: 'jp-causas-h'
     },
     {
-      text: 'Causas',
-      path: 'jp-causas-h'
+      text: 'Sobre',
+      path: 'lc-sobre-h'
     },
     {
       text: 'Sintomas ',
@@ -32,15 +32,16 @@ export class HipertensaoComponent implements OnInit {
 
   persons = [
     {
-      personUrl: '../../../assets/person/Jorge.jpg',
-      path: 'lc-sobre-h'
-    },
-    {
       personUrl: '../../../assets/person/Joao.jpg',
       path: 'jp-causas-h'
     },
     {
-      personUrl: '../../../assets/person/Pablo.jpg',
+      personUrl: '../../../assets/person/Jorge.jpg',
+      path: 'lc-sobre-h'
+    },
+
+    {
+      personUrl: '../../../assets/person/Pablo.jpeg',
       path: 'pl-sintomas-h'
     },
     {

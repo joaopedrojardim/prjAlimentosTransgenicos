@@ -9,12 +9,8 @@ export class HomeComponent implements OnInit {
 
   buttons = [
     {
-      text: 'Hipertensão',
+      text: 'Alimentos Trangênicos',
       path: 'hipertensao'
-    },
-    {
-      text: 'Pneumonia',
-      path: 'pneumonia'
     }
   ]
 
