@@ -21,8 +21,8 @@ export class HipertensaoComponent implements OnInit {
       path: 'pl-sintomas-h'
     },
     {
-      text: 'Tratamento ',
-      path: 'tc-tratamentos-h'
+      text: 'Poluição ',
+      path: 'tc-meio-ambiente'
     },
     {
       text: 'Riscos',

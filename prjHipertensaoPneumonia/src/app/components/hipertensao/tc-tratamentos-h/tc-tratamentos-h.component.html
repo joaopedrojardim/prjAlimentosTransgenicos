@@ -8,8 +8,8 @@
       </svg>
     </div>
 
-    <h1 class="title__large">Tratamento da Hipertensão</h1>
-    <h1 class="title__small"> Tratamento</h1>
+    <h1 class="title__large">Riscos ao meio-ambiente</h1>
+    <h1 class="title__small"> Riscos</h1>
 
   </nav>
 
@@ -39,13 +39,6 @@
             <p class="esp">
               {{ i.paragrafo2 }}
             </p>
-            <div *ngIf="i.lista == true" class="esp">
-              <ul type="square">
-                <li *ngFor="let item of lista" [class]="item.espaco">
-                  {{item.topico}}
-                </li>
-              </ul>
-            </div>
           </div>
           <img [src]=i.img>
           <div class="text-r-r">
@@ -55,13 +48,6 @@
             <p class="esp">
               {{ i.paragrafo2 }}
             </p>
-            <div *ngIf="i.lista == true" class="esp">
-              <ul type="square">
-                <li *ngFor="let item of lista" [class]="item.espaco">
-                  {{item.topico}}
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

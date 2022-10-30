@@ -25,8 +25,8 @@ const routes: Routes = [
   {path: "jp-causas-h", component: JpCausasHComponent},
   {path: "lc-sobre-h", component: LcSobreHComponent},
   {path: "pl-sintomas-h", component: PlSintomasHComponent},
-  {path: "tc-tratamentos-h", component: TcTratamentosHComponent},
-  
+  {path: "tc-meio-ambiente", component: TcTratamentosHComponent},
+
   {path: "cg-curiosidades-p", component: CgCuriosidadesPComponent},
   {path: "jp-causas-p", component: JpCausasPComponent},
   {path: "lc-sobre-p", component: LcSobrePComponent},
