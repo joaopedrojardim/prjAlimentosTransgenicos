@@ -13,11 +13,11 @@ export class HipertensaoComponent implements OnInit {
       path: 'jp-causas-h'
     },
     {
-      text: 'Sobre',
+      text: 'No Brasil',
       path: 'lc-sobre-h'
     },
     {
-      text: 'Sintomas ',
+      text: 'Benefícios',
       path: 'pl-sintomas-h'
     },
     {

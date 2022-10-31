@@ -15,6 +15,7 @@ body{
     height: 50px;
     width: 50px;
     position: absolute;
+    cursor: pointer;
     left: 20px;
   }
 
@@ -75,6 +76,12 @@ body{
 {
   .local{
     display: none;
+  }
+
+  .navbar {
+    h1 {
+      font-size: larger;
+    }
   }
 }
 
